@@ -25,9 +25,9 @@ How to Use it
   - `Variable x = new Variable("x",5.5); // declared a variable object with the name "x" and value 5.5`
   - `Variable y = new Variable("y",4.5); // declared a variable object with the name "y" and value 4.5`
 2. Create a `HashMap<String, Variable>` object to store the variables.
-  - `HashMap<String,Variable> variables = new HashMap<String,Variable>();`
-  - `variables.put(x.getName(), x);`
-  - `variables.put(y.getName(), y);`
+  - `VariablePool variables = new VariablePool();`
+  - `variables.putVariable(x);`
+  - `variables.putVariable(y);`
 3. Evaluate your expression using a `MathTree` object.
   - `MathTree tree;`  
 		`try {`  
