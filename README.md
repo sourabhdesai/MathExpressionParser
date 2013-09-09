@@ -24,7 +24,7 @@ How to Use it
 1. Create Variable objects to store each of your variables.
   - `Variable x = new Variable("x",5.5); // declared a variable object with the name "x" and value 5.5`
   - `Variable y = new Variable("y",4.5); // declared a variable object with the name "y" and value 4.5`
-2. Create a `HashMap<String, Variable>` object to store the variables.
+2. Create a `VariablePool` object to store the variables.
   - `VariablePool variables = new VariablePool();`
   - `variables.putVariable(x);`
   - `variables.putVariable(y);`
